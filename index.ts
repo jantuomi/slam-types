@@ -7,9 +7,6 @@ export namespace RunnerApiSubmitRequest {
 
 export namespace RunnerApiSubmitResponse {
   export interface Body {
-    result: {
-      stdout: string
-      stderr: string
-    }
+    result: string
   }
 }
