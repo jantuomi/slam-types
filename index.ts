@@ -9,6 +9,8 @@ export namespace RunnerApi {
   export namespace SubmitResponse {
     export interface Body {
       result: string
+      executionTime: number // time running the interpreter
+      apiTime: number // time doing file IO + executionTime
     }
   }
 }
